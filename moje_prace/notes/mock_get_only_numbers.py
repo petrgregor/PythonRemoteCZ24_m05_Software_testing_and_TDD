@@ -15,4 +15,4 @@ def get_only_numbers():
     return '|'.join(numbers)
 
 if __name__ == "__main__":
-    print(get_only_numbers())  # do print vkladam nazef definovane funkce
+    print(get_only_numbers())  # do print vkladam nazev definovane funkce
