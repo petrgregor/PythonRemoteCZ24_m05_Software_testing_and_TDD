@@ -9,9 +9,10 @@ def get_only_numbers():
     numbers = []
     for line in API.get_data():
         digits = [x.strip() for x in line.split(',') if x.strip().isdigit()]
+        # TODO zjistit jestli je digits jen pojmenovani?
         numbers.extend(digits)
 
     return '|'.join(numbers)
 
 if __name__ == "__main__":
-    print()
+    print(get_only_numbers())  # do print vkladam nazef definovane funkce
