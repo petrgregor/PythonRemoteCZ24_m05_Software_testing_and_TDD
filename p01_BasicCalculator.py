@@ -36,6 +36,3 @@ class BasicCalculator:
         return None
 
 
-if __name__ == "__main__":
-    basic_calculator = BasicCalculator()
-    basic_calculator.add(2, 5)
