@@ -6,6 +6,7 @@ from mock_get_only_numbers import get_only_numbers, API
 def test_read_only_numbers():
 
     test_data = ["1,4,5,25,aa,bb,23,4", "324,24,234www,1,23", "545,3w,32"]
+    #test_data = open('bb').readline()  # dalsi moznost zadani dat
 
     expected = "1|4|5|25|23|4|324|24|1|23|545|32"
 
