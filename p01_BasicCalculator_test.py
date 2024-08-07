@@ -13,6 +13,20 @@ def test_addition():
     assert basic_calculator.add("hello", "world") is None
 
 
+@pytest.mark.parametrize("num1, num2, result",
+                         [(5, 7, 12), (7, 5, 12), (15, 0, 15), (9, -5, 4), (1, 1, 2), (-5, -3, -8),
+                         ("5", 2, None), (5, "ahoj", None), ("hello", "word", None)])
+def test_addition2(num1, num2, result):
+    basic_calculator = BasicCalculator()
+    assert basic_calculator.add(num1, num2) == result
+
+
+# @pytest.mark.parametrize("num1, num2, result", [("5", 2, None), (5, "ahoj", None), ("hello", "word", None)])
+# def test_addition3(num1, num2, result):
+#     basic_calculator = BasicCalculator()
+#     assert basic_calculator.add(num1, num2) == result
+
+
 def test_subtraction():
     basic_calculator = BasicCalculator()
     assert basic_calculator.subtract(7, 5) == 2
