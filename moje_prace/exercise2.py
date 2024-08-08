@@ -11,7 +11,6 @@ if __name__ == "__main__":
         print(f"{word} -> {odd_indexes(word)}")
 
 
-print("exercise3")
 
 
 
