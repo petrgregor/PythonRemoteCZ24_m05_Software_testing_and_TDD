@@ -4,6 +4,8 @@
 # nazev souboru musi obsahovat toto slovo. * = ohraniceni slova
 # Z příkazové řádky pustíme analýzu: coverage run --source="." --omit="*/venv/*" -m pytest
 #                                                | zdroje = vsechny | vynechat =
+# zapis prikazu pro jeden soubor: coverage run -m pytest .\nazev souboru
+#                                            | -m -> zkratka pro modul
 # potom vytvoříme report: coverage report product.py company.py
 # výsledek bude vypadat nějak takto:
 # (venv) $ coverage report example.py
