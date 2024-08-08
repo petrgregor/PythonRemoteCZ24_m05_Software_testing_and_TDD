@@ -10,4 +10,4 @@ if __name__ == "__main__":
 # TODO vůbec jsme nepochopil zadaní.
 #  Jakto že u posledniho čísla to
 #  napiše když to nasobí každé číslo zvlášt?
-#  chápal bzch vísledek 2,0,6
+#  chápal bych vísledek 2,0,6

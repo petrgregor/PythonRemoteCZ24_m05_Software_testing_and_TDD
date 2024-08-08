@@ -9,4 +9,4 @@ def get_avg(how_much):
     return sum(numbers) / len(numbers)
 
 
-print(get_avg(3))
+print(get_avg(4))
