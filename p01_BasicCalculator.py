@@ -35,6 +35,9 @@ class BasicCalculator:
                 return None
         return None
 
+    def new_method(self):
+        return None
+
 
 if __name__ == "__main__":
     basic_calculator = BasicCalculator()
