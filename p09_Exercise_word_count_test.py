@@ -2,7 +2,7 @@
 Implementujte funkci word_count(s), která vrátí počet slov v daném řetězci.
 """
 import pytest
-from p09_Exercise_word_count import word_count
+from Jp09_Exercise_word_count import word_count
 
 
 def test_word_count():
