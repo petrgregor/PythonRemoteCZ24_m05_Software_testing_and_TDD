@@ -6,6 +6,7 @@
 #                                                | zdroje = vsechny | vynechat =
 # zapis prikazu pro jeden soubor: coverage run -m pytest .\nazev souboru
 #                                            | -m -> zkratka pro modul
+# pro vice podrobnosti o testu pouzijeme prikaz: python -m unittest -v
 # potom vytvoříme report: coverage report product.py company.py
 # výsledek bude vypadat nějak takto:
 # (venv) $ coverage report example.py
