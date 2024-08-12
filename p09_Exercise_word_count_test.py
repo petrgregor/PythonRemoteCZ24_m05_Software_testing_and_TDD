@@ -6,7 +6,7 @@ from Jp09_Exercise_word_count import word_count
 
 
 def test_word_count():
-    assert word_count("Hello world") == 2
+    assert word_count("Hello     world") == 2
     assert word_count("This is a test") == 4
     assert word_count("One more test case") == 4
     assert word_count("") == 0

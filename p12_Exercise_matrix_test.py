@@ -14,11 +14,11 @@ def test_matrix_creation():
 def test_matrix_transpose():
     m = Matrix([[1, 2], [3, 4]])
     mt = m.transpose()
-    assert mt.data == [[2, 4], [1, 3]]
+    assert mt.data == [[1, 3], [2, 4]]
 
     m2 = Matrix([[1, 2, 3], [4, 5, 6]])
     mt2 = m2.transpose()
-    assert mt2.data == [[4, 5, 6], [1, 2, 3]]
+    assert mt2.data == [[1, 4], [2, 5], [3, 6]]
 
 
 if __name__ == "__main__":
