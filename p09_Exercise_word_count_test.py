@@ -11,7 +11,7 @@ def test_word_count():
     assert word_count("One more test case") == 4
     assert word_count("") == 0
     assert word_count("Python is awesome!") == 3
-    assert word_count("")
+    assert word_count("takze jeste upravim tuhle chybu") == 5
 
 
 if __name__ == "__main__":
