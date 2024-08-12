@@ -3,7 +3,7 @@ Implementujte funkci is_prime(n), která vrátí True, pokud je číslo prvočí
 Implementujte funkci factorial(n), která vrátí faktoriál čísla n.
 """
 import pytest
-from Jp08_exercise import is_prime, factorial
+from p08_Exercise import is_prime, factorial
 
 
 def test_is_prime():
