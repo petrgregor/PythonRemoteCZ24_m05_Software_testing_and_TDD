@@ -29,7 +29,6 @@ class TestComplexNumber(unittest.TestCase):
     def test_str(self):
         c = ComplexNumber(1, 2)
         self.assertEqual(str(c), '1 + 2i')
-
     def test_add(self):
         c1 = ComplexNumber(1, 2)
         c2 = ComplexNumber(3, 4)
