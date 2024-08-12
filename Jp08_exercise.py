@@ -22,8 +22,9 @@ def factorial(n: int) -> int:
     for i in range(2, n + 1):
         result *= i
     return result
-# TODO proc nefunguje test kdyz tady mam napsany radek pod touto poznamkou?
-#if __name__ == "__main__":
-    # for i in range(22):
-    #      print(f"Number {i}: is_prime({i}) = {is_prime(i)}<"
-    #            f"Number {i}: factorial({i}) = {factorial(i)}")
+
+
+if __name__ == "__main__":
+    for i in range(1222):
+        print(f"Number {i}: is_prime({i}) = {is_prime(i)}"),
+#        (f"Number {i}: factorial({i}) = {factorial(i)}")
