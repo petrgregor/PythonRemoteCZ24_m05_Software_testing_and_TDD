@@ -8,7 +8,7 @@ class Book:
     _title = ""
     _author = ""
     _year = 0
-
+# TODO procist a pochopit!!
     def __init__(self, title_, author_, year_):
         self.title = title_
         self.author = author_
